@@ -192,9 +192,9 @@ else
   call s:h("SpellRare",   {"cterm": "underline", "fg": s:red})
   call s:h("SpellLocal",  {"cterm": "underline", "fg": s:dark_green})
 endif
-call s:h("Pmenu",         {"fg": s:norm, "bg": s:bg_subtle})
-call s:h("PmenuSel",      {"fg": s:norm, "bg": s:bg_dark})
-call s:h("PmenuSbar",     {"fg": s:norm, "bg": s:bg_subtle})
+call s:h("Pmenu",         {"fg": s:white, "bg": s:bg_dark})
+call s:h("PmenuSel",      {"fg": s:white, "bg": s:bg_subtle})
+call s:h("PmenuSbar",     {"fg": s:norm, "bg": s:bg_dark})
 call s:h("PmenuThumb",    {"fg": s:norm, "bg": s:dark_blue})
 call s:h("TabLine",       {"fg": s:norm, "bg": s:bg_dark})
 call s:h("TabLineSel",    {"fg": s:norm, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
