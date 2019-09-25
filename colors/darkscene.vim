@@ -199,7 +199,7 @@ call s:h("PmenuThumb",    {"fg": s:norm, "bg": s:dark_blue})
 call s:h("TabLine",       {"fg": s:norm, "bg": s:bg_dark})
 call s:h("TabLineSel",    {"fg": s:norm, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
 call s:h("TabLineFill",   {"fg": s:norm, "bg": s:bg_dark})
-call s:h("CursorColumn",  {"bg": s:bg_subtle})
+call s:h("CursorColumn",  {"bg": s:black})
 call s:h("CursorLine",    {"bg": s:black})
 call s:h("ColorColumn",   {"bg": s:bg_subtle})
 
