@@ -314,6 +314,9 @@ call s:h("GitGutterDelete",         {"fg": s:red})
 call s:h("GitGutterChange",         {"fg": s:yellow})
 call s:h("GitGutterChangeDelete",   {"fg": s:red})
 
+" NERDTree
+highlight NERDTreeFile ctermfg=251
+
 "nvim terminal colors
 let g:terminal_color_0  = s:bg_dark.gui
 let g:terminal_color_1  = s:red.gui
